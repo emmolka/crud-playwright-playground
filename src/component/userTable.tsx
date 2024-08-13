@@ -15,7 +15,7 @@ const UserTable: React.FunctionComponent<IProps> = props => {
         <thead>
           <tr>
             <th>Name</th>
-            <th>Age</th>
+            <th>Date of birth</th>
             <th>Profession</th>
           </tr>
         </thead>

@@ -62,7 +62,7 @@ const AddUserForm: React.FunctionComponent<IProps> = ({ onAddUser }) => {
           {errors.profession && <div className="form-error">{errors.profession.message}</div>}
         </div>
         <div className="form-row">
-          <label>Age</label>
+          <label>Date of birth</label>
           {errors.age && <div className="form-error">{errors.age.message}</div>}
           <DatePicker
             showPopperArrow={false}
